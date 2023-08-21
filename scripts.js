@@ -13,7 +13,7 @@ const cardList = [
     }
     ];
 
-//function to add cardlist to html
+
 const addCards = (items) => {
     items.forEach(item =>{
     let itemToAppend = '<div class="col s4 center-align">'+
